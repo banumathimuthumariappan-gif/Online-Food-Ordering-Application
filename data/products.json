@@ -258,7 +258,7 @@
             "price": 150,
             "description": "Soft flaky plain parotta served with a rich, aromatic South Indian style mixed vegetable kurma made from coconut, spices, and herbs.",
             "bestSeller": false,
-            "imageURL": "./images/26-Parotta-With-Veg-Kurma.jpeg"
+            "imageURL": "./images/26-Parotta-with-Veg-Kurma.jpeg"
         },
         {
             "itemId": 27,
@@ -378,7 +378,7 @@
             "price": 180,
             "description": "Seasonal mixed vegetables cooked in a mildly spiced tomato-based gravy.",
             "bestSeller": false,
-            "imageURL": "./images/38-Mixed-vegetables-Curry.png"
+            "imageURL": "./images/38-Mixed-Vegetables-Curry.png"
         },
         {
             "itemId": 39,
@@ -1068,7 +1068,7 @@
             "price": 100,
             "description": "Classic creamy vanilla-flavored ice cream.",
             "bestSeller": true,
-            "imageURL": "./images/107-Vanilla-Ice-cream.jpeg"
+            "imageURL": "./images/107-Vanilla-Ice-Cream.jpeg"
         },
         {
             "itemId": 108,
@@ -1078,7 +1078,7 @@
             "price": 110,
             "description": "Rich and smooth chocolate-flavored ice cream.",
             "bestSeller": false,
-            "imageURL": "./images/108-Chocolate-Ice-cream.jpeg"
+            "imageURL": "./images/108-Chocolate-Ice-Cream.jpeg"
         },
         {
             "itemId": 109,
@@ -1088,7 +1088,7 @@
             "price": 110,
             "description": "Fresh strawberry-flavored creamy ice cream.",
             "bestSeller": false,
-            "imageURL": "./images/109-Strawberry-Ice-cream.jpeg"
+            "imageURL": "./images/109-Strawberry-Ice-Cream.jpeg"
         },
         {
             "itemId": 110,
@@ -1098,7 +1098,7 @@
             "price": 120,
             "description": "Creamy ice cream infused with the rich flavor of ripe mangoes.",
             "bestSeller": false,
-            "imageURL": "./images/110-Mango-Ice-cream.png"
+            "imageURL": "./images/110-Mango-Ice-Cream.png"
         },
         {
             "itemId": 111,
