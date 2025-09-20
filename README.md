@@ -31,7 +31,7 @@ It allows users to:
 
 ### Project Structure
 
-Food-Express/
+Online-Food-Ordering-Application/
 
 │── index.html         # Main entry point
 
@@ -103,55 +103,38 @@ Open **index.html** in any browser
 
 #### Screenshots
 
-Home
 ![Home](./App-Screenshots/Home-page.png)
 
-About
 ![About](./App-Screenshots/About-page.png)
 
-Benefits
 ![Benefits](./App-Screenshots/Benefits-page.png)
 
-Menu Categories
 ![Menu Categories](./App-Screenshots/Menu-page.png)
 
-Menu items
 ![Menu items](./App-Screenshots/Menu-Cards.png)
 
-Testimonials
 ![Testimonials](./App-Screenshots/Testimonial-page.png)
 
-Mobile app section
 ![Mobile app section](./App-Screenshots/Mobile-app-page.png)
 
-Footer
 ![Footer](./App-Screenshots/Footer.png)
 
-Sign In
 ![Sign In](./App-Screenshots/Sign-in-page.png)
 
-Register
 ![Register](./App-Screenshots/Register-page.png)
 
-Cart
 ![Cart](./App-Screenshots/Cart-page.png)
 
-Checkout
 ![Checkout](./App-Screenshots/order-summary-page.png)
 
-Payment Main
 ![Payment Main](./App-Screenshots/Payment-main-page.png)
 
-Payment - Debit/ Credit Card
 ![Payment - Debit/ Credit Card](./App-Screenshots/payment-card.png)
 
-Payment - UPI ID
 ![Payment - UPI ID](./App-Screenshots/Payment-upi.png)
 
-Payment - Net Banking
 ![Payment - Net Banking](./App-Screenshots/Payment-netbanking.png)
 
-Success
 ![Success](./App-Screenshots/success-page.png)
 
 #### Author
