@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+:root {
+  --primary-color: #f94a3d;
+  --white-color: #fff;
+  --red-color-1: #e83b2e;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --default-color: #d0d0da;
+  --light-red-color: #fdecec;
+}
+
+body {
+  background-color: var(--light-red-color);
+}
+
+.checkout-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#order-summary-title {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+#payButton {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.checkout-button-wrapper {
+  padding-top: 3rem;
+}
+
+#summary-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+#summary-total-items {
+  padding-bottom: 1rem;
+}
+
+#summary-card {
+  max-width: 40rem;
+  width: 100%;
+  margin: 0 auto; /* center horizontally */
+  box-sizing: border-box;
+  /* Optionally add some horizontal padding */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 578px) {
+  #summary-card {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}

@@ -1,0 +1,1384 @@
+{
+    "products": [
+        {
+            "itemId": 1,
+            "itemName": "Hyderabadi Chicken Biryani",
+            "category": "Biryani",
+            "itemType": "Non-Vegetarian",
+            "price": 250,
+            "description": "Aromatic chicken biryani cooked with spices and saffron layered with basmati rice and fried onions.",
+            "bestSeller": true,
+            "imageURL": "./images/01-Hyderabadi-Chicken-Biryani.jpg"
+        },
+        {
+            "itemId": 2,
+            "itemName": "Mutton Biryani",
+            "category": "Biryani",
+            "itemType": "Non-Vegetarian",
+            "price": 300,
+            "description": "Royal dish with tender mutton and fragrant basmati rice garnished with fried onions and herbs.",
+            "bestSeller": true,
+            "imageURL": "./images/02-Mutton-Biryani.jpeg"
+        },
+        {
+            "itemId": 3,
+            "itemName": "Fish Biryani",
+            "category": "Biryani",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Spicy fish layered with aromatic basmati rice and spices.",
+            "bestSeller": false,
+            "imageURL": "./images/03-Fish-Biryani.jpeg"
+        },
+        {
+            "itemId": 4,
+            "itemName": "Prawn Biryani",
+            "category": "Biryani",
+            "itemType": "Non-Vegetarian",
+            "price": 320,
+            "description": "Juicy prawns cooked with spices and fragrant basmati rice.",
+            "bestSeller": false,
+            "imageURL": "./images/04-Prawn-Biryani.jpeg"
+        },
+        {
+            "itemId": 5,
+            "itemName": "Veg Biryani",
+            "category": "Biryani",
+            "itemType": "Vegetarian",
+            "price": 180,
+            "description": "Flavorful mix of vegetables and aromatic basmati rice cooked with mild spices.",
+            "bestSeller": true,
+            "imageURL": "./images/05-Veg-Biryani.png"
+        },
+        {
+            "itemId": 6,
+            "itemName": "Paneer Biryani",
+            "category": "Biryani",
+            "itemType": "Vegetarian",
+            "price": 220,
+            "description": "Dum cooked biryani with soft paneer cubes, spices, and saffron.",
+            "bestSeller": false,
+            "imageURL": "./images/06-Paneer-Biryani.png"
+        },
+        {
+            "itemId": 7,
+            "itemName": "Mushroom Biryani",
+            "category": "Biryani",
+            "itemType": "Vegetarian",
+            "price": 210,
+            "description": "Earthy mushrooms cooked with biryani masala and basmati rice.",
+            "bestSeller": false,
+            "imageURL": "./images/07-Mushroom-Biryani.png"
+        },
+        {
+            "itemId": 8,
+            "itemName": "Egg Biryani",
+            "category": "Biryani",
+            "itemType": "Non-Vegetarian",
+            "price": 170,
+            "description": "Boiled eggs cooked in spicy gravy layered with saffron-infused rice.",
+            "bestSeller": false,
+            "imageURL": "./images/08-Egg-Biryani.png"
+        },
+        {
+            "itemId": 9,
+            "itemName": "Veg Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Vegetarian",
+            "price": 180,
+            "description": "Mixed vegetable fried rice lightly seasoned and cooked to perfection.",
+            "bestSeller": false,
+            "imageURL": "./images/09-Veg-Fried-Rice.png"
+        },
+        {
+            "itemId": 10,
+            "itemName": "Schezwan Veg Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Vegetarian",
+            "price": 200,
+            "description": "Spicy Indo-Chinese style fried rice with mixed vegetables and Schezwan sauce.",
+            "bestSeller": true,
+            "imageURL": "./images/10-Schezwan-Veg-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 11,
+            "itemName": "Mushroom Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Vegetarian",
+            "price": 210,
+            "description": "Flavorful fried rice with mushrooms and aromatic spices.",
+            "bestSeller": false,
+            "imageURL": "./images/11-Mushroom-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 12,
+            "itemName": "Paneer Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Vegetarian",
+            "price": 220,
+            "description": "Fried rice with crispy paneer cubes and mixed vegetables.",
+            "bestSeller": false,
+            "imageURL": "./images/12-Paneer-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 13,
+            "itemName": "Vegetable Hakka Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Vegetarian",
+            "price": 190,
+            "description": "Classic Hakka-style fried rice with assorted vegetables and soy seasoning.",
+            "bestSeller": false,
+            "imageURL": "./images/13-Veg-Hakka-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 14,
+            "itemName": "Chicken Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Non-Vegetarian",
+            "price": 240,
+            "description": "Indo-Chinese fried rice with tender chicken pieces and vegetables.",
+            "bestSeller": false,
+            "imageURL": "./images/14-Chicken-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 15,
+            "itemName": "Egg Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Non-Vegetarian",
+            "price": 200,
+            "description": "Fried rice with scrambled eggs and vegetables cooked with spices.",
+            "bestSeller": false,
+            "imageURL": "./images/15-Egg-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 16,
+            "itemName": "Prawn Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Non-Vegetarian",
+            "price": 300,
+            "description": "Fried rice with succulent prawns and mixed vegetables.",
+            "bestSeller": false,
+            "imageURL": "./images/16-Prawn-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 17,
+            "itemName": "Seafood Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Non-Vegetarian",
+            "price": 350,
+            "description": "Mixed seafood fried rice with prawns, fish, and squid cooked with aromatic spices.",
+            "bestSeller": false,
+            "imageURL": "./images/17-SeaFood-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 18,
+            "itemName": "Schezwan Chicken Fried Rice",
+            "category": "Fried Rice",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Spicy Schezwan chicken fried rice with fresh vegetables.",
+            "bestSeller": true,
+            "imageURL": "./images/18-Schezwan-Chicken-Fried-Rice.jpeg"
+        },
+        {
+            "itemId": 19,
+            "itemName": "Veg Hakka Noodles",
+            "category": "Noodles",
+            "itemType": "Vegetarian",
+            "price": 180,
+            "description": "Indo-Chinese style stir-fried noodles with vegetables and soy sauce.",
+            "bestSeller": false,
+            "imageURL": "./images/19-Veg-Hakka-Noodles.jpeg"
+        },
+        {
+            "itemId": 20,
+            "itemName": "Veg Chow Mein",
+            "category": "Noodles",
+            "itemType": "Vegetarian",
+            "price": 180,
+            "description": "Soft noodles tossed with fresh vegetables and light soy seasoning.",
+            "bestSeller": false,
+            "imageURL": "./images/20-Veg-Chow-Mein.jpeg"
+        },
+        {
+            "itemId": 21,
+            "itemName": "Schezwan Veg Noodles",
+            "category": "Noodles",
+            "itemType": "Vegetarian",
+            "price": 200,
+            "description": "Spicy Schezwan-style stir-fried noodles with vegetables.",
+            "bestSeller": false,
+            "imageURL": "./images/21-Schezwan-Veg-Noodles.jpeg"
+        },
+        {
+            "itemId": 22,
+            "itemName": "Chicken Hakka Noodles",
+            "category": "Noodles",
+            "itemType": "Non-Vegetarian",
+            "price": 240,
+            "description": "Hakka noodles stir-fried with tender chicken and vegetables.",
+            "bestSeller": false,
+            "imageURL": "./images/22-Chicken-Hakka-Noodles.jpeg"
+        },
+        {
+            "itemId": 23,
+            "itemName": "Chicken Chow Mein",
+            "category": "Noodles",
+            "itemType": "Non-Vegetarian",
+            "price": 240,
+            "description": "Soft noodles cooked with chicken and fresh vegetables in light soy sauce.",
+            "bestSeller": false,
+            "imageURL": "./images/23-Chicken-Chow-Mein.jpeg"
+        },
+        {
+            "itemId": 24,
+            "itemName": "Schezwan Chicken Noodles",
+            "category": "Noodles",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Spicy and flavorful Schezwan-style chicken noodles with vegetables.",
+            "bestSeller": true,
+            "imageURL": "./images/24-Schezwan-Chicken-Noodles.jpeg"
+        },
+        {
+            "itemId": 25,
+            "itemName": "Prawn Noodles",
+            "category": "Noodles",
+            "itemType": "Non-Vegetarian",
+            "price": 300,
+            "description": "Stir-fried noodles with juicy prawns and mixed vegetables.",
+            "bestSeller": false,
+            "imageURL": "./images/25-Prawn-Noodles.png"
+        },
+        {
+            "itemId": 26,
+            "itemName": "Plain Parotta With Veg Kurma",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Vegetarian",
+            "price": 150,
+            "description": "Soft flaky plain parotta served with a rich, aromatic South Indian style mixed vegetable kurma made from coconut, spices, and herbs.",
+            "bestSeller": false,
+            "imageURL": "./images/26-Parotta-With-Veg-Kurma.jpeg"
+        },
+        {
+            "itemId": 27,
+            "itemName": "Egg Parotta",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Non-Vegetarian",
+            "price": 160,
+            "description": "Flaky parotta layered with spiced scrambled eggs or omelette filling, served hot and soft.",
+            "bestSeller": false,
+            "imageURL": "./images/27-Egg-Parotta.jpeg"
+        },
+        {
+            "itemId": 28,
+            "itemName": "Chicken Parotta",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Non-Vegetarian",
+            "price": 180,
+            "description": "Flaky parotta served with spicy chicken gravy or filling, a popular street food and meal option.",
+            "bestSeller": false,
+            "imageURL": "./images/28-Chicken-Parotta.jpeg"
+        },
+        {
+            "itemId": 29,
+            "itemName": "Mutton Parotta",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Non-Vegetarian",
+            "price": 200,
+            "description": "Signature flaky parotta paired with tender chunks of mutton cooked in aromatic gravy, rich in spices and flavor.",
+            "bestSeller": true,
+            "imageURL": "./images/29-Mutton-Parotta.jpeg"
+        },
+        {
+            "itemId": 30,
+            "itemName": "Plain Parotta With Non Veg Kurma",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Non-Vegetarian",
+            "price": 180,
+            "description": "Soft flaky plain parotta served with a non-vegetarian kurma made with chicken, mutton or egg gravy cooked with spices and coconut.",
+            "bestSeller": false,
+            "imageURL": "./images/30-Parotta-With-Nonveg-kurma.jpeg"
+        },
+        {
+            "itemId": 31,
+            "itemName": "Aloo Paratha",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Vegetarian",
+            "price": 120,
+            "description": "Indian flatbread stuffed with seasoned mashed potatoes and spices, cooked on a griddle with ghee or butter.",
+            "bestSeller": false,
+            "imageURL": "./images/31-Aloo-Paratha.png"
+        },
+        {
+            "itemId": 32,
+            "itemName": "Paneer Paratha",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Vegetarian",
+            "price": 140,
+            "description": "Stuffed Indian flatbread with finely grated paneer, spices, and herbs, pan-fried until golden brown.",
+            "bestSeller": false,
+            "imageURL": "./images/32-Paneer-Paratha.jpeg"
+        },
+        {
+            "itemId": 33,
+            "itemName": "Mixed Vegetables Paratha",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Vegetarian",
+            "price": 130,
+            "description": "Paratha stuffed with a blend of seasoned mixed vegetables and lightly pan-fried for a crispy texture.",
+            "bestSeller": true,
+            "imageURL": "./images/33-Mixed-Vegetables-Paratha.jpeg"
+        },
+        {
+            "itemId": 34,
+            "itemName": "Butter Naan",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Both",
+            "price": 60,
+            "description": "Soft leavened Indian bread baked in a tandoor and brushed with melted butter.",
+            "bestSeller": true,
+            "imageURL": "./images/34-Butter-Naan.jpeg"
+        },
+        {
+            "itemId": 35,
+            "itemName": "Garlic Naan",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Both",
+            "price": 70,
+            "description": "Fluffy Indian tandoori bread topped with minced garlic and herbs, buttery and aromatic.",
+            "bestSeller": false,
+            "imageURL": "./images/35-Garlic-Naan.jpeg"
+        },
+        {
+            "itemId": 36,
+            "itemName": "Tandoori Roti",
+            "category": "Parotta, Paratha and Breads",
+            "itemType": "Both",
+            "price": 40,
+            "description": "Whole wheat flatbread baked in a traditional clay tandoor oven with a slightly smoky flavor.",
+            "bestSeller": false,
+            "imageURL": "./images/36-Tandoori-Roti.jpeg"
+        },
+        {
+            "itemId": 37,
+            "itemName": "Paneer Butter Masala",
+            "category": "Gravies and Curries",
+            "itemType": "Vegetarian",
+            "price": 220,
+            "description": "Soft paneer cubes cooked in rich buttery tomato and cream gravy with mild spices.",
+            "bestSeller": false,
+            "imageURL": "./images/37-Paneer-Butter-Masala.jpeg"
+        },
+        {
+            "itemId": 38,
+            "itemName": "Mixed Vegetable Curry",
+            "category": "Gravies and Curries",
+            "itemType": "Vegetarian",
+            "price": 180,
+            "description": "Seasonal mixed vegetables cooked in a mildly spiced tomato-based gravy.",
+            "bestSeller": false,
+            "imageURL": "./images/38-Mixed-vegetables-Curry.png"
+        },
+        {
+            "itemId": 39,
+            "itemName": "Channa Masala",
+            "category": "Gravies and Curries",
+            "itemType": "Vegetarian",
+            "price": 160,
+            "description": "Chickpeas cooked in a tangy and spicy onion-tomato gravy with Indian spices.",
+            "bestSeller": false,
+            "imageURL": "./images/39-Channa-Masala.jpeg"
+        },
+        {
+            "itemId": 40,
+            "itemName": "Malai Kofta",
+            "category": "Gravies and Curries",
+            "itemType": "Vegetarian",
+            "price": 220,
+            "description": "Deep-fried vegetable and paneer balls cooked in creamy cashew and tomato-based gravy.",
+            "bestSeller": false,
+            "imageURL": "./images/40-Malai-Kofta.jpeg"
+        },
+        {
+            "itemId": 41,
+            "itemName": "Dal Tadka",
+            "category": "Gravies and Curries",
+            "itemType": "Vegetarian",
+            "price": 150,
+            "description": "Yellow lentils tempered with mustard seeds, garlic, and split red chilies for flavor.",
+            "bestSeller": false,
+            "imageURL": "./images/41-Dal-Tadka.jpeg"
+        },
+        {
+            "itemId": 42,
+            "itemName": "Butter Chicken",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Roasted chicken chunks cooked in a creamy tomato-based buttery gravy with aromatic spices.",
+            "bestSeller": false,
+            "imageURL": "./images/42-Butter-Chicken.png"
+        },
+        {
+            "itemId": 43,
+            "itemName": "Chicken Curry",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 260,
+            "description": "Tender chicken cooked in traditional spicy onion-tomato gravy.",
+            "bestSeller": true,
+            "imageURL": "./images/43-Chicken-Curry.png"
+        },
+        {
+            "itemId": 44,
+            "itemName": "Fish Curry",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 300,
+            "description": "Fresh fish cooked in tangy and spicy South Indian style curry with tamarind and spices.",
+            "bestSeller": false,
+            "imageURL": "./images/44-Fish-Curry.jpeg"
+        },
+        {
+            "itemId": 45,
+            "itemName": "Mutton Curry",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 320,
+            "description": "Slow-cooked mutton in a rich, spicy, and aromatic curry gravy.",
+            "bestSeller": false,
+            "imageURL": "./images/45-Mutton-Curry.jpeg"
+        },
+        {
+            "itemId": 46,
+            "itemName": "Prawn Curry",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 320,
+            "description": "Fresh prawns cooked in coconut milk-based tangy curry with traditional spices.",
+            "bestSeller": true,
+            "imageURL": "./images/46-Prawn-Curry.jpeg"
+        },
+        {
+            "itemId": 47,
+            "itemName": "Chicken Chettinad",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Spicy chicken curry from Chettinad region with freshly ground spices and herbs.",
+            "bestSeller": false,
+            "imageURL": "./images/47-Chicken-Chettinad-gravy.png"
+        },
+        {
+            "itemId": 48,
+            "itemName": "Kadai Chicken",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 270,
+            "description": "Chicken cooked with bell peppers, onions, and tomato gravy with Kadai masala spices.",
+            "bestSeller": false,
+            "imageURL": "./images/48-Kadai-Chicken.jpeg"
+        },
+        {
+            "itemId": 49,
+            "itemName": "Rogan Josh",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 350,
+            "description": "Aromatic Kashmiri lamb curry cooked in yogurt and traditional spices.",
+            "bestSeller": false,
+            "imageURL": "./images/49-Rogan-Josh.jpeg"
+        },
+        {
+            "itemId": 50,
+            "itemName": "Egg Curry",
+            "category": "Gravies and Curries",
+            "itemType": "Non-Vegetarian",
+            "price": 180,
+            "description": "Hard-boiled eggs cooked in flavorful onion tomato and spice gravy.",
+            "bestSeller": false,
+            "imageURL": "./images/50-Egg-Curry.png"
+        },
+        {
+            "itemId": 51,
+            "itemName": "Paneer Tikka",
+            "category": "Starters",
+            "itemType": "Vegetarian",
+            "price": 220,
+            "description": "Chunks of cottage cheese marinated in yogurt and spices, grilled in tandoor for smoky flavor.",
+            "bestSeller": true,
+            "imageURL": "./images/51-Paneer-Tikka.png"
+        },
+        {
+            "itemId": 52,
+            "itemName": "Paneer 65",
+            "category": "Starters",
+            "itemType": "Vegetarian",
+            "price": 210,
+            "description": "Deep-fried spicy paneer cubes, flavored with curry leaves and South Indian spices.",
+            "bestSeller": true,
+            "imageURL": "./images/52-Paneer-65.jpeg"
+        },
+        {
+            "itemId": 53,
+            "itemName": "Stuffed Mushrooms",
+            "category": "Starters",
+            "itemType": "Vegetarian",
+            "price": 240,
+            "description": "Mushrooms stuffed with seasoned vegetables or cheese, baked or fried to a golden crisp.",
+            "bestSeller": false,
+            "imageURL": "./images/53-Stuffed-Mushroom.jpeg"
+        },
+        {
+            "itemId": 54,
+            "itemName": "Aloo Tikki",
+            "category": "Starters",
+            "itemType": "Vegetarian",
+            "price": 150,
+            "description": "Spiced mashed potato patties shallow fried until crispy, served with chutneys.",
+            "bestSeller": false,
+            "imageURL": "./images/54-Aloo-Tikki.jpeg"
+        },
+        {
+            "itemId": 55,
+            "itemName": "Cheese Balls",
+            "category": "Starters",
+            "itemType": "Vegetarian",
+            "price": 210,
+            "description": "Deep-fried balls made from cheese and seasoned mashed potatoes, crispy on the outside.",
+            "bestSeller": false,
+            "imageURL": "./images/55-Cheese-Balls.jpeg"
+        },
+        {
+            "itemId": 56,
+            "itemName": "Chicken 65",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 250,
+            "description": "Spicy deep-fried chicken bites, a popular South Indian appetizer.",
+            "bestSeller": false,
+            "imageURL": "./images/56-Chicken-65.jpeg"
+        },
+        {
+            "itemId": 57,
+            "itemName": "Chicken Fry",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Spicy chicken fry made by marinating chicken with Indian spices, ginger, garlic, and curry leaves, then fried until crispy and juicy.",
+            "bestSeller": false,
+            "imageURL": "./images/57-Chicken-Fry.jpeg"
+        },
+        {
+            "itemId": 58,
+            "itemName": "Fish Fingers",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 300,
+            "description": "Breaded fish fillets deep-fried until golden and crispy, served with dips.",
+            "bestSeller": true,
+            "imageURL": "./images/58-Fish-Fingers.jpeg"
+        },
+        {
+            "itemId": 59,
+            "itemName": "Chicken Seekh Kebab",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 270,
+            "description": "Minced chicken mixed with spices, shaped on skewers, grilled in tandoor.",
+            "bestSeller": false,
+            "imageURL": "./images/59-Chicken-Seekh-Kebab.jpeg"
+        },
+        {
+            "itemId": 60,
+            "itemName": "Chicken Wings",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Crispy fried or grilled chicken wings tossed in spice sauces.",
+            "bestSeller": false,
+            "imageURL": "./images/60-Chicken-Wings.jpeg"
+        },
+        {
+            "itemId": 61,
+            "itemName": "Prawn Tempura",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 320,
+            "description": "Lightly battered and deep-fried prawns, crispy with delicate flavor.",
+            "bestSeller": false,
+            "imageURL": "./images/61-Prawn-Tempura.jpeg"
+        },
+        {
+            "itemId": 62,
+            "itemName": "Crab Cakes",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 350,
+            "description": "Minced crab meat mixed with herbs and spices, shaped into cakes and fried.",
+            "bestSeller": false,
+            "imageURL": "./images/62-Crab-Cakes.jpeg"
+        },
+        {
+            "itemId": 63,
+            "itemName": "Mutton Samosa",
+            "category": "Starters",
+            "itemType": "Non-Vegetarian",
+            "price": 220,
+            "description": "Deep-fried triangular pastry filled with spiced mutton mince.",
+            "bestSeller": false,
+            "imageURL": "./images/63-Mutton-Samosa.png"
+        },
+        {
+            "itemId": 64,
+            "itemName": "Tandoori Paneer",
+            "category": "Tandoors and Grills",
+            "itemType": "Vegetarian",
+            "price": 250,
+            "description": "Cubes of paneer marinated in spiced yogurt and grilled to perfection in a tandoor, smoky and flavorful.",
+            "bestSeller": false,
+            "imageURL": "./images/64-Tandoori-Paneer.jpeg"
+        },
+        {
+            "itemId": 65,
+            "itemName": "Grilled Vegetable Skewers",
+            "category": "Tandoors and Grills",
+            "itemType": "Vegetarian",
+            "price": 200,
+            "description": "Assorted vegetables marinated in herbs and spices, grilled on skewers for a healthy smoky taste.",
+            "bestSeller": false,
+            "imageURL": "./images/65-Grilled-Vegetable-Skewers.jpeg"
+        },
+        {
+            "itemId": 66,
+            "itemName": "Tandoori Mushroom",
+            "category": "Tandoors and Grills",
+            "itemType": "Vegetarian",
+            "price": 220,
+            "description": "Mushrooms marinated with tandoori spices and grilled until juicy and tender with a smoky aroma.",
+            "bestSeller": false,
+            "imageURL": "./images/66-Tandoori-Mushroom.jpeg"
+        },
+        {
+            "itemId": 67,
+            "itemName": "Tandoori Tofu",
+            "category": "Tandoors and Grills",
+            "itemType": "Vegetarian",
+            "price": 230,
+            "description": "Soft tofu pieces marinated in tandoori masala and grilled, perfect for a vegan grilled option.",
+            "bestSeller": false,
+            "imageURL": "./images/67-Tandoori-Tofu.jpeg"
+        },
+        {
+            "itemId": 68,
+            "itemName": "Tandoori Chicken",
+            "category": "Tandoors and Grills",
+            "itemType": "Non-Vegetarian",
+            "price": 320,
+            "description": "Juicy spring chicken marinated in traditional spices, cooked in tandoor for tender and smoky taste.",
+            "bestSeller": true,
+            "imageURL": "./images/68-Tandoori-Chicken.png"
+        },
+        {
+            "itemId": 69,
+            "itemName": "Chicken Tikka",
+            "category": "Tandoors and Grills",
+            "itemType": "Non-Vegetarian",
+            "price": 280,
+            "description": "Boneless chicken pieces marinated in yogurt and spices, grilled until tender and flavorful.",
+            "bestSeller": false,
+            "imageURL": "./images/69-Chicken-Tikka.jpeg"
+        },
+        {
+            "itemId": 70,
+            "itemName": "Tandoori Fish",
+            "category": "Tandoors and Grills",
+            "itemType": "Non-Vegetarian",
+            "price": 350,
+            "description": "Fish fillets marinated with tandoori spices, grilled with a smoky flavor and spicy aroma.",
+            "bestSeller": false,
+            "imageURL": "./images/70-Tandoori-Fish.jpeg"
+        },
+        {
+            "itemId": 71,
+            "itemName": "Grilled Prawns",
+            "category": "Tandoors and Grills",
+            "itemType": "Non-Vegetarian",
+            "price": 380,
+            "description": "Fresh prawns marinated in spices and grilled, juicy and flavorful seafood starter.",
+            "bestSeller": true,
+            "imageURL": "./images/71-Grilled-Prawns.jpeg"
+        },
+        {
+            "itemId": 72,
+            "itemName": "Chicken Malai Tikka",
+            "category": "Tandoors and Grills",
+            "itemType": "Non-Vegetarian",
+            "price": 300,
+            "description": "Creamy and mildly spiced chicken cubes marinated and cooked in tandoor, soft and rich in flavor.",
+            "bestSeller": false,
+            "imageURL": "./images/72-Chicken-Malai-Tikka.jpeg"
+        },
+        {
+            "itemId": 73,
+            "itemName": "Paneer Wrap",
+            "category": "Wraps and Rolls",
+            "itemType": "Vegetarian",
+            "price": 180,
+            "description": "Soft flatbread wrap filled with spiced paneer cubes, fresh veggies and tangy sauces.",
+            "bestSeller": false,
+            "imageURL": "./images/73-Paneer-Wrap.png"
+        },
+        {
+            "itemId": 74,
+            "itemName": "Aloo Frankie",
+            "category": "Wraps and Rolls",
+            "itemType": "Vegetarian",
+            "price": 150,
+            "description": "Indian-style wrap stuffed with spicy mashed potatoes and tangy chutneys, grilled to perfection.",
+            "bestSeller": false,
+            "imageURL": "./images/74-Aloo-Frankie.jpeg"
+        },
+        {
+            "itemId": 75,
+            "itemName": "Hummus & Veggie Roll",
+            "category": "Wraps and Rolls",
+            "itemType": "Vegetarian",
+            "price": 160,
+            "description": "Mediterranean inspired wrap with creamy hummus and fresh crunchy vegetables wrapped in soft flatbread.",
+            "bestSeller": false,
+            "imageURL": "./images/75-Hummus-And-Veggie-Roll.jpeg"
+        },
+        {
+            "itemId": 76,
+            "itemName": "Chicken Shawarma",
+            "category": "Wraps and Rolls",
+            "itemType": "Non-Vegetarian",
+            "price": 220,
+            "description": "Middle Eastern spiced grilled chicken with garlic sauce, veggies wrapped in warm flatbread.",
+            "bestSeller": true,
+            "imageURL": "./images/76-Chicken-Shawarma.png"
+        },
+        {
+            "itemId": 77,
+            "itemName": "Egg Roll",
+            "category": "Wraps and Rolls",
+            "itemType": "Non-Vegetarian",
+            "price": 140,
+            "description": "Spiced scrambled eggs with onions and spices wrapped in a soft flatbread.",
+            "bestSeller": false,
+            "imageURL": "./images/77-Egg-Roll.jpeg"
+        },
+        {
+            "itemId": 78,
+            "itemName": "Chicken Kathi Roll",
+            "category": "Wraps and Rolls",
+            "itemType": "Non-Vegetarian",
+            "price": 200,
+            "description": "Indian street food classic - marinated chicken with spices, onions, and chutneys wrapped in paratha.",
+            "bestSeller": false,
+            "imageURL": "./images/78-Chicken-Kathi-Roll.jpeg"
+        },
+        {
+            "itemId": 79,
+            "itemName": "Mutton Kathi Roll",
+            "category": "Wraps and Rolls",
+            "itemType": "Non-Vegetarian",
+            "price": 220,
+            "description": "Tender mutton cooked in aromatic spices wrapped with onions and chutney in flaky paratha.",
+            "bestSeller": false,
+            "imageURL": "./images/79-Mutton-Kathi-Roll.jpeg"
+        },
+        {
+            "itemId": 80,
+            "itemName": "Fish Roll",
+            "category": "Wraps and Rolls",
+            "itemType": "Non-Vegetarian",
+            "price": 230,
+            "description": "Spiced fried fish fillets wrapped in a warm flatbread with fresh veggies and sauces.",
+            "bestSeller": false,
+            "imageURL": "./images/80-Fish-Roll.jpeg"
+        },
+        {
+            "itemId": 81,
+            "itemName": "Idly Sambar",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 100,
+            "description": "Soft, steamed rice cakes served with tangy and spicy sambar (lentil stew) and coconut chutney.",
+            "bestSeller": false,
+            "imageURL": "./images/81-Idly-Sambar.jpeg"
+        },
+        {
+            "itemId": 82,
+            "itemName": "Medu Vada",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 120,
+            "description": "Crispy and fluffy lentil doughnuts served with sambar and chutneys.",
+            "bestSeller": false,
+            "imageURL": "./images/82-Medu-Vada.png"
+        },
+        {
+            "itemId": 83,
+            "itemName": "Masala Dosa",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 130,
+            "description": "Crispy fermented rice crepe filled with spiced mashed potatoes, served with sambar and chutney.",
+            "bestSeller": false,
+            "imageURL": "./images/83-Masala-Dosa.jpeg"
+        },
+        {
+            "itemId": 84,
+            "itemName": "Plain Dosa",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 110,
+            "description": "Thin and crispy crepe made from fermented rice and urad dal batter, served with chutney and sambar.",
+            "bestSeller": false,
+            "imageURL": "./images/84-Plain-Dosa.jpeg"
+        },
+        {
+            "itemId": 85,
+            "itemName": "Rava Dosa",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 120,
+            "description": "Crispy semolina crepe with herbs and spices, served with chutney and sambar.",
+            "bestSeller": false,
+            "imageURL": "./images/85-Rava-Dosa.jpeg"
+        },
+        {
+            "itemId": 86,
+            "itemName": "Uttappam",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 130,
+            "description": "Thick pancake topped with mixed vegetables, served with chutney and sambar.",
+            "bestSeller": false,
+            "imageURL": "./images/86-Uttapam.jpeg"
+        },
+        {
+            "itemId": 87,
+            "itemName": "Pongal",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 110,
+            "description": "Savory rice and lentil porridge flavored with ginger, pepper, and cumin, served with chutney.",
+            "bestSeller": true,
+            "imageURL": "./images/87-Pongal.jpeg"
+        },
+        {
+            "itemId": 88,
+            "itemName": "Poori",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 100,
+            "description": "Deep fried puffed wheat flour bread, often served with potato curry or sagu.",
+            "bestSeller": false,
+            "imageURL": "./images/88-Poori.png"
+        },
+        {
+            "itemId": 89,
+            "itemName": "Pesarattu",
+            "category": "South Indian Specialities",
+            "itemType": "Vegetarian",
+            "price": 120,
+            "description": "Green gram crepe served with ginger chutney and sometimes upma.",
+            "bestSeller": false,
+            "imageURL": "./images/89-Pesarattu.jpeg"
+        },
+        {
+            "itemId": 90,
+            "itemName": "Egg Dosa",
+            "category": "South Indian Specialities",
+            "itemType": "Non-Vegetarian",
+            "price": 140,
+            "description": "Plain dosa spread with egg and cooked until crisp, served with chutney and sambar.",
+            "bestSeller": false,
+            "imageURL": "./images/90-Egg-Dosa.png"
+        },
+        {
+            "itemId": 91,
+            "itemName": "Idly With Chicken Curry",
+            "category": "South Indian Specialities",
+            "itemType": "Non-Vegetarian",
+            "price": 160,
+            "description": "Soft idlis served with flavorful chicken curry, a hearty South Indian meal.",
+            "bestSeller": false,
+            "imageURL": "./images/91-Idly-Chicken-Curry.jpeg"
+        },
+        {
+            "itemId": 92,
+            "itemName": "Idly With Mutton Curry",
+            "category": "South Indian Specialities",
+            "itemType": "Non-Vegetarian",
+            "price": 180,
+            "description": "Steamed rice cakes with spicy and rich mutton curry accompaniment.",
+            "bestSeller": false,
+            "imageURL": "./images/92-Idly-Mutton-Curry.jpeg"
+        },
+        {
+            "itemId": 93,
+            "itemName": "South Indian Veg Thali",
+            "category": "South Indian Meals",
+            "itemType": "Vegetarian",
+            "price": 250,
+            "description": "A wholesome meal platter with rice, sambar, rasam, vegetable curry, papad, and chutneys.",
+            "bestSeller": false,
+            "imageURL": "./images/93-South-Indian-Veg-Thali.jpeg"
+        },
+        {
+            "itemId": 94,
+            "itemName": "Lemon Rice",
+            "category": "South Indian Meals",
+            "itemType": "Vegetarian",
+            "price": 150,
+            "description": "Fragrant rice tempered with mustard seeds, curry leaves, peanuts, and fresh lemon juice.",
+            "bestSeller": false,
+            "imageURL": "./images/94-Lemon-Rice.jpeg"
+        },
+        {
+            "itemId": 95,
+            "itemName": "Curd Rice",
+            "category": "South Indian Meals",
+            "itemType": "Vegetarian",
+            "price": 140,
+            "description": "Cooling yogurt-mixed rice garnished with mustard seeds, curry leaves, and fresh ginger.",
+            "bestSeller": true,
+            "imageURL": "./images/95-Curd-Rice.jpeg"
+        },
+        {
+            "itemId": 96,
+            "itemName": "Tamarind Rice",
+            "category": "South Indian Meals",
+            "itemType": "Vegetarian",
+            "price": 160,
+            "description": "Tangy and spicy rice cooked with tamarind paste, tempered spices, peanuts, and curry leaves.",
+            "bestSeller": false,
+            "imageURL": "./images/96-Tamarind-Rice.png"
+        },
+        {
+            "itemId": 97,
+            "itemName": "Tomato Rice",
+            "category": "South Indian Meals",
+            "itemType": "Vegetarian",
+            "price": 160,
+            "description": "Aromatic rice cooked with tomatoes, spices, and tempered with mustard seeds and curry leaves.",
+            "bestSeller": false,
+            "imageURL": "./images/97-Tomato-Rice.jpeg"
+        },
+        {
+            "itemId": 98,
+            "itemName": "South Indian Non Veg Thali",
+            "category": "South Indian Meals",
+            "itemType": "Non-Vegetarian",
+            "price": 350,
+            "description": "Complete meal platter with rice, sambar, rasam, non-veg curries, vegetable sides, and chutneys.",
+            "bestSeller": true,
+            "imageURL": " ./images/98-Non-Veg-Thali.jpeg"
+        },
+        {
+            "itemId": 99,
+            "itemName": "Rice With Fish Fry",
+            "category": "South Indian Meals",
+            "itemType": "Non-Vegetarian",
+            "price": 320,
+            "description": "Steamed rice served with crispy, spiced fish fry and accompanying vegetable sides.",
+            "bestSeller": false,
+            "imageURL": "./images/99-Fish-Fry-With-Rice.jpeg"
+        },
+        {
+            "itemId": 100,
+            "itemName": "Rice With Chicken Fry",
+            "category": "South Indian Meals",
+            "itemType": "Non-Vegetarian",
+            "price": 320,
+            "description": "Steamed rice paired with spicy and crispy chicken fry and vegetable sides.",
+            "bestSeller": false,
+            "imageURL": "./images/100-Rice-With-Chicken-fry.png"
+        },
+        {
+            "itemId": 101,
+            "itemName": "Rava Kesari",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 120,
+            "description": "Sweet semolina dessert flavored with saffron and cardamom, garnished with nuts and ghee.",
+            "bestSeller": false,
+            "imageURL": "./images/101-Rava-Kesari.jpeg"
+        },
+        {
+            "itemId": 102,
+            "itemName": "Rice Payasam",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 130,
+            "description": "Creamy rice pudding cooked with milk, jaggery, cardamom, and garnished with nuts and raisins.",
+            "bestSeller": false,
+            "imageURL": "./images/102-Rice-Payasam.jpeg"
+        },
+        {
+            "itemId": 103,
+            "itemName": "Vermicelli Payasam",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 130,
+            "description": "Sweet vermicelli pudding made with milk, sugar, and flavored with cardamom and nuts.",
+            "bestSeller": false,
+            "imageURL": "./images/103-Vermicelli-Payasam.jpeg"
+        },
+        {
+            "itemId": 104,
+            "itemName": "Moong Dal Payasam",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 140,
+            "description": "Lentil-based sweet pudding cooked with jaggery, milk, and flavored with cardamom and dry fruits.",
+            "bestSeller": true,
+            "imageURL": "./images/104-Moong-Dal-Payasam.jpeg"
+        },
+        {
+            "itemId": 105,
+            "itemName": "Jackfruit Halwa",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 150,
+            "description": "Rich and aromatic halwa made from ripe jackfruit, sugar, and ghee.",
+            "bestSeller": false,
+            "imageURL": "./images/105-Jackfruit-Halwa.jpeg"
+        },
+        {
+            "itemId": 106,
+            "itemName": "Coconut Payasam",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 140,
+            "description": "Creamy coconut-flavored sweet pudding with milk, sugar, and cardamom.",
+            "bestSeller": false,
+            "imageURL": "./images/106-Coconut-Payasam.jpeg"
+        },
+        {
+            "itemId": 107,
+            "itemName": "Vanilla Ice cream",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 100,
+            "description": "Classic creamy vanilla-flavored ice cream.",
+            "bestSeller": true,
+            "imageURL": "./images/107-Vanilla-Ice-cream.jpeg"
+        },
+        {
+            "itemId": 108,
+            "itemName": "Chocolate Ice cream",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 110,
+            "description": "Rich and smooth chocolate-flavored ice cream.",
+            "bestSeller": false,
+            "imageURL": "./images/108-Chocolate-Ice-cream.jpeg"
+        },
+        {
+            "itemId": 109,
+            "itemName": "Strawberry Ice cream",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 110,
+            "description": "Fresh strawberry-flavored creamy ice cream.",
+            "bestSeller": false,
+            "imageURL": "./images/109-Strawberry-Ice-cream.jpeg"
+        },
+        {
+            "itemId": 110,
+            "itemName": "Mango Ice cream",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 120,
+            "description": "Creamy ice cream infused with the rich flavor of ripe mangoes.",
+            "bestSeller": false,
+            "imageURL": "./images/110-Mango-Ice-cream.png"
+        },
+        {
+            "itemId": 111,
+            "itemName": "Tiramisu",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 220,
+            "description": "Italian style layered dessert with coffee-soaked ladyfingers and mascarpone cream.",
+            "bestSeller": false,
+            "imageURL": "./images/111-Tiramisu.jpeg"
+        },
+        {
+            "itemId": 112,
+            "itemName": "Cookies",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 150,
+            "description": "Assorted baked cookies with nuts and chocolate chips.",
+            "bestSeller": false,
+            "imageURL": "./images/112-Cookies.jpeg"
+        },
+        {
+            "itemId": 113,
+            "itemName": "Blueberry Cheesecake",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 350,
+            "description": "Creamy cheesecake topped with fresh blueberry compote.",
+            "bestSeller": false,
+            "imageURL": "./images/113-Blueberry-Cheese-Cake.jpeg"
+        },
+        {
+            "itemId": 114,
+            "itemName": "Strawberry Cheesecake",
+            "category": "Desserts and Ice cream",
+            "itemType": "Both",
+            "price": 350,
+            "description": "Smooth cheesecake topped with fresh strawberry sauce.",
+            "bestSeller": false,
+            "imageURL": "./images/114-Strawberry-Cheese-Cake.jpeg"
+        },
+        {
+            "itemId": 115,
+            "itemName": "Samosa",
+            "category": "Snacks",
+            "itemType": "Both",
+            "price": 80,
+            "description": "Deep-fried pastry filled with spiced potatoes and peas, a classic Indian snack.",
+            "bestSeller": false,
+            "imageURL": "./images/115-Samosa.jpeg"
+        },
+        {
+            "itemId": 116,
+            "itemName": "French Fries",
+            "category": "Snacks",
+            "itemType": "Both",
+            "price": 90,
+            "description": "Crispy golden-fried potato sticks served with ketchup or sauces.",
+            "bestSeller": true,
+            "imageURL": "./images/116-French-Fries.jpeg"
+        },
+        {
+            "itemId": 117,
+            "itemName": "Vada Pav",
+            "category": "Snacks",
+            "itemType": "Both",
+            "price": 100,
+            "description": "Indian-style sandwich with spicy potato fritter stuffed in a bun, served with chutneys.",
+            "bestSeller": false,
+            "imageURL": "./images/117-Vada-Pav.jpeg"
+        },
+        {
+            "itemId": 118,
+            "itemName": "Pani Puri",
+            "category": "Snacks",
+            "itemType": "Both",
+            "price": 120,
+            "description": "Hollow crispy puris filled with tangy flavored water, tamarind chutney, and spiced potatoes.",
+            "bestSeller": true,
+            "imageURL": "./images/118-Pani-Puri.jpeg"
+        },
+        {
+            "itemId": 119,
+            "itemName": "Chicken Nuggets",
+            "category": "Snacks",
+            "itemType": "Non-Vegetarian",
+            "price": 250,
+            "description": "Bite-sized crispy fried chicken pieces served with dips.",
+            "bestSeller": false,
+            "imageURL": "./images/119-Chicken-Nudgets.jpeg"
+        },
+        {
+            "itemId": 120,
+            "itemName": "Bhel Puri",
+            "category": "Snacks",
+            "itemType": "Both",
+            "price": 110,
+            "description": "Savory puffed rice mixture with spices, chutneys, onions, and vegetables, a popular street snack.",
+            "bestSeller": true,
+            "imageURL": "./images/120-Bhel-Puri.png"
+        },
+        {
+            "itemId": 121,
+            "itemName": "Sev Puri",
+            "category": "Snacks",
+            "itemType": "Both",
+            "price": 120,
+            "description": "Crispy puris topped with spicy and tangy chutneys, onions, and sev (crunchy gram flour noodles).",
+            "bestSeller": false,
+            "imageURL": "./images/121-Sev-Puri.png"
+        },
+        {
+            "itemId": 122,
+            "itemName": "Tea",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 20,
+            "description": "Classic Indian brewed tea, aromatic and refreshing.",
+            "bestSeller": false,
+            "imageURL": "./images/122-Tea.png"
+        },
+        {
+            "itemId": 123,
+            "itemName": "Filter Coffee",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 40,
+            "description": "South Indian style strong coffee brewed with a metal filter, served with milk.",
+            "bestSeller": false,
+            "imageURL": "./images/123-Filter-Coffee.jpeg"
+        },
+        {
+            "itemId": 124,
+            "itemName": "Hot Chocolate",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 60,
+            "description": "Rich, creamy hot chocolate made from cocoa and milk.",
+            "bestSeller": false,
+            "imageURL": "./images/124-Hot-Chocolate.png"
+        },
+        {
+            "itemId": 125,
+            "itemName": "Black Tea",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 25,
+            "description": "Strong black tea served plain or with sugar.",
+            "bestSeller": false,
+            "imageURL": "./images/125-Black-Tea.jpeg"
+        },
+        {
+            "itemId": 126,
+            "itemName": "Green Tea",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 50,
+            "description": "Healthy green tea with a mild and refreshing flavor.",
+            "bestSeller": false,
+            "imageURL": "./images/126-Green-Tea.jpeg"
+        },
+        {
+            "itemId": 127,
+            "itemName": "Spiced Tea",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 30,
+            "description": "Traditional Indian masala chai with aromatic spices.",
+            "bestSeller": false,
+            "imageURL": "./images/127-Spiced-Tea.jpeg"
+        },
+        {
+            "itemId": 128,
+            "itemName": "Fresh Lemonade",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 30,
+            "description": "Freshly squeezed lemon juice blended with water and sugar.",
+            "bestSeller": false,
+            "imageURL": "./images/128-Fresh-Lemonade.jpeg"
+        },
+        {
+            "itemId": 129,
+            "itemName": "Iced Tea",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 40,
+            "description": "Chilled tea served with lemon and ice cubes.",
+            "bestSeller": false,
+            "imageURL": "./images/129-Iced-Tea.jpeg"
+        },
+        {
+            "itemId": 130,
+            "itemName": "Cold Coffee",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 50,
+            "description": "Refreshing cold coffee blended with ice and milk.",
+            "bestSeller": false,
+            "imageURL": "./images/130-Cold-Coffee.jpeg"
+        },
+        {
+            "itemId": 131,
+            "itemName": "Butter Milk",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 30,
+            "description": "Traditional fermented buttermilk seasoned with mustard seeds and curry leaves.",
+            "bestSeller": false,
+            "imageURL": "./images/131-Butter-Milk.jpeg"
+        },
+        {
+            "itemId": 132,
+            "itemName": "Cola",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 40,
+            "description": "Carbonated cola drink served chilled.",
+            "bestSeller": false,
+            "imageURL": "./images/132-Cola.png"
+        },
+        {
+            "itemId": 133,
+            "itemName": "Apple Juice",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 50,
+            "description": "Fresh and naturally sweet apple juice.",
+            "bestSeller": false,
+            "imageURL": "./images/133-Apple-Juice.png"
+        },
+        {
+            "itemId": 134,
+            "itemName": "Orange Juice",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 50,
+            "description": "Freshly squeezed orange juice.",
+            "bestSeller": true,
+            "imageURL": "./images/134-Orange-Juice.jpeg"
+        },
+        {
+            "itemId": 135,
+            "itemName": "Watermelon Juice",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 45,
+            "description": "Refreshing juice made from ripe watermelons.",
+            "bestSeller": false,
+            "imageURL": "./images/135-Watermelon-Juice.jpeg"
+        },
+        {
+            "itemId": 136,
+            "itemName": "Pineapple Juice",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 50,
+            "description": "Sweet and tangy pineapple juice.",
+            "bestSeller": false,
+            "imageURL": "./images/136-Pineapple-Juice.jpeg"
+        },
+        {
+            "itemId": 137,
+            "itemName": "Mango Smoothie",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 80,
+            "description": "Creamy smoothie made with mango pulp and yogurt.",
+            "bestSeller": false,
+            "imageURL": "./images/137-Mango-Smoothie.png"
+        },
+        {
+            "itemId": 138,
+            "itemName": "Banana Smoothie",
+            "category": "Beverages",
+            "itemType": "Both",
+            "price": 80,
+            "description": "Thick and healthy banana smoothie blended with milk or yogurt.",
+            "bestSeller": true,
+            "imageURL": "./images/138-Banana-Smoothie.jpeg"
+        }
+    ]
+}

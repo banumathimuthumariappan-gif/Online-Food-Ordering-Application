@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+:root {
+  --primary-color: #f94a3d;
+  --white-color: #fff;
+  --red-color-1: #e83b2e;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --default-color: #d0d0da;
+  --light-red-color: #fdecec;
+}
+
+body {
+  background-color: var(--light-red-color);
+}
+
+#success-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15rem;
+}
+
+#backHome-button {
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+#backHome-button:hover {
+    background-color: var(--red-color-1);
+    border-color: var(--red-color-1);
+}

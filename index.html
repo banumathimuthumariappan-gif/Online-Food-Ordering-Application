@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Express</title>
+    <!-- Title Icon -->
+    <link
+      rel="shortcut icon"
+      href="./images/app-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Poppins Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <!-- HEADER PART -->
+      <header id="header">
+        <nav class="navbar navbar-expand-xl navbar-light">
+          <div class="container">
+            <a class="navbar-brand brand-text" href="#">
+              <img
+                src="./images/app-logo.png"
+                alt="LOGO"
+                width="35"
+                height="35"
+                class="me-2"
+              />Food Express</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarBasic"
+              aria-controls="navbarBasic"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarBasic">
+              <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#recipes">Shop</a>
+                </li>
+                <li>
+                  <a href="#subscribe" class="nav-link">Contact</a>
+                </li>
+              </ul>
+              <!-- Cart and Sign In Section -->
+              <div class="d-flex align-items-center">
+                <!-- Cart Button -->
+                <button
+                  id="cart-button"
+                  class="btn btn-outline-success me-2 mb-2 mb-sm-0"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#cartModal"
+                >
+                  <i
+                    id="card-icon"
+                    class="fa fa-shopping-cart"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+
+                <!-- Sign in Button -->
+                <div id="auth-section">
+                  <button
+                    id="signInButton"
+                    class="btn btn-primary mb-2 mb-sm-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signInModal"
+                  >
+                    Sign In
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- MAIN PART  -->
+      <main id="main">
+        <!-- Main Home -->
+        <section id="home">
+          <!-- Main Content -->
+          <div class="container" id="main-content-container">
+            <div class="row">
+              <div class="col" id="main-content">
+                <h1>Delivering Happiness at Your Doorstep</h1>
+                <p>
+                  Order now to enjoy delicious meals delivered quickly and
+                  fresh, right to where you are.
+                </p>
+                <p>
+                  "Bringing flavor and freshness straight to you, every time"
+                </p>
+                <button class="btn btn-primary" id="orderButton">
+                  Order now
+                </button>
+              </div>
+              <!-- Main Content Image -->
+              <div class="col" id="main-image">
+                <img src="./images/home.jpg" alt="Food Express" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+          <div class="container" id="about-container">
+            <div class="row" id="about-row">
+              <!-- About Content -->
+              <div class="col" id="about-content">
+                <h1>The Secret Behind Our Flavorful Success</h1>
+                <p>
+                  Good heart health starts on your plate—whole grains and
+                  low-fat dairy help keep your blood pressure in check and your
+                  heart strong
+                </p>
+              </div>
+              <!-- About Description -->
+              <div class="col" id="about-description">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                  <img src="./images/about-menu.png" alt="Menu" height="200" />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Pick your favorite meal from our diverse menu
+                    </h5>
+                  </div>
+                </div>
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                  <img
+                    src="./images/about-delivery.jpeg"
+                    alt="Delivery"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Enjoy fast, fresh delivery right to your doorstep
+                    </h5>
+                  </div>
+                </div>
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                  <img
+                    src="./images/about-review.jpeg"
+                    alt="Review"
+                    height="200"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Join thousands of happy customers with 200+ glowing app
+                      reviews
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits">
+          <div class="container">
+            <!-- Benefits Row -->
+            <div class="row" id="benefits-row">
+              <!-- Benefits Image -->
+              <div class="col" id="benefits-image">
+                <img
+                  src="./images/benefits-man.jpeg"
+                  alt="Benefits"
+                  width="600"
+                  height="600"
+                />
+              </div>
+              <!-- Benefits Content -->
+              <div class="col" id="benefits-content">
+                <h1>Take a Look at the Benefits We Offer</h1>
+                <p>
+                  Good service is more than just meeting expectations—it’s about
+                  being friendly, welcoming, and truly caring for you. We don’t
+                  just aim to avoid bad service; we strive to create exceptional
+                  experiences every time
+                </p>
+                <!-- Benefits Cards -->
+                <div id="benefits-cards">
+                  <div class="card" width="18rem">
+                    <div class="card-body benefit-card">
+                      <h5 class="card-title">Free Home Delivery</h5>
+                      <p class="card-text">
+                        Enjoy free delivery on all orders over $50—because
+                        convenience matters to us.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body benefit-card">
+                      <h5 class="card-tltle">Return & Refund</h5>
+                      <p class="card-text">
+                        Your satisfaction is guaranteed with our hassle-free
+                        money-back policy
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body benefit-card">
+                      <h5 class="card-title">Secure Payment</h5>
+                      <p class="card-text">
+                        Shop with confidence thanks to 100% secure and encrypted
+                        payment options
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body benefit-card">
+                      <h5 class="card-title">Quality Support</h5>
+                      <p class="card-text">
+                        Our dedicated support team is available 24/7 to assist
+                        you anytime
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body benefit-card">
+                      <h5 class="card-title">Fast & Reliable</h5>
+                      <p class="card-text">
+                        Prompt delivery ensures your food arrives fresh and on
+                        time, every time
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body benefit-card">
+                      <h5 class="card-title">Easy Ordering</h5>
+                      <p class="card-text">
+                        A seamless and user-friendly app makes ordering your
+                        favorite meals quick and easy
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Recipes Section -->
+        <section id="recipes">
+          <div class="container" id="recipes-container">
+            <h1>Our Menu</h1>
+            <!-- Menu Buttons -->
+            <div id="menu-buttons">
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="All"
+              >
+                All
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Biryani"
+              >
+                Biryani
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Fried Rice"
+              >
+                Fried Rice
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Noodles"
+              >
+                Noodles
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Parotta, Paratha and Breads"
+              >
+                Parotta, Paratha and Breads
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Gravies and Curries"
+              >
+                Gravies and Curries
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Starters"
+              >
+                Starters
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Tandoors and Grills"
+              >
+                Tandoors and Grills
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Wraps and Rolls"
+              >
+                Wraps and Rolls
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="South Indian Specialities"
+              >
+                South Indian Specialities
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="South Indian Meals"
+              >
+                South Indian Meals
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Desserts and Ice cream"
+              >
+                Desserts and Ice cream
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Snacks"
+              >
+                Snacks
+              </button>
+              <button
+                class="btn btn-outline-primary category-button"
+                data-filter="Beverages"
+              >
+                Beverages
+              </button>
+            </div>
+
+            <!-- Filter Section -->
+            <div class="row" id="menu-container"></div>
+          </div>
+        </section>
+        <!-- Testimonial Section -->
+        <section id="testimonial">
+          <div class="container">
+            <div class="row" id="testimonial-row">
+              <h1>What our Customers say</h1>
+              <!-- Testimonial Cards -->
+              <div id="testimonial-cards">
+                <div class="card testimonial-card">
+                  <img
+                    src="./images/avatar.png"
+                    alt="Customer"
+                    width="100"
+                    height="100"
+                  />
+                  <div class="card-body testimonial-body">
+                    <h5 class="card-title">Monica Taylor</h5>
+                    <p class="text-muted">September 5, 2025</p>
+                    <p class="card-text">
+                      Absolutely delightful experience! The food was fresh and
+                      bursting with flavor, and the service was outstanding. Our
+                      family can't wait to come back for more delicious meals!
+                    </p>
+                  </div>
+                </div>
+                <div class="card testimonial-card">
+                  <img
+                    src="./images/avatar.png"
+                    alt="Customer"
+                    width="100"
+                    height="100"
+                  />
+                  <div class="card-body testimonial-body">
+                    <h5 class="card-title">Kathy Nissenbaum</h5>
+                    <p class="text-muted">Kathy Nissenbaum</p>
+                    <p class="card-text">
+                      Efficient service and healthy, satisfying meals prepared
+                      perfectly every time. This restaurant takes away the
+                      stress from dinner and delivers top-notch taste every
+                      visit!
+                    </p>
+                  </div>
+                </div>
+                <div class="card testimonial-card">
+                  <img
+                    src="./images/avatar.png"
+                    alt="Customer"
+                    width="100"
+                    height="100"
+                  />
+                  <div class="card-body testimonial-body">
+                    <h5 class="card-title">Jasper Williams</h5>
+                    <p class="text-muted">August 27, 2025</p>
+                    <p class="card-text">
+                      The staff made us feel right at home, and every dish was a
+                      new culinary adventure. Highly recommended for anyone
+                      looking for quality food and a memorable dining night!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Mobile App -->
+        <section id="mobile-app">
+          <div class="container" id="mobile-app-wrapper">
+            <div class="row" id="mobile-app-row">
+              <div class="col" id="mobile-app-image">
+                <img
+                  src="./images/mobile-app.jpeg"
+                  alt="Mobile Application"
+                  width="500"
+                  height="500"
+                />
+              </div>
+              <div class="col" id="mobile-app-content">
+                <h2>Never go hungry again! Download our app now</h2>
+                <p>
+                  Enjoy your favorite meals delivered fresh, fast, and
+                  hassle-free—right to your doorstep anytime you want
+                </p>
+                <div id="mobile-app-buttons">
+                  <!-- Download Buttons -->
+                  <button
+                    class="btn btn-primary mobile-app-button"
+                    id="apple-store"
+                  >
+                    <i class="fa-brands fa-apple"></i> Download on App Store
+                  </button>
+                  <button
+                    class="btn btn-primary mobile-app-button"
+                    id="play-store"
+                  >
+                    <i class="fa-brands fa-google-play"></i> Download on Play
+                    Store
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Subscribe -->
+        <section id="subscribe">
+          <div class="container">
+            <div class="row" id="subscribe-row">
+              <h1>Subscribe to our NEWSLETTER</h1>
+              <p>
+                We recommend you to subscribe to our newsletter, drop your email
+                below to get daily update about us.
+              </p>
+              <form id="subscribe-form">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <button id="subscribe-submit" class="btn btn-primary">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER PART -->
+      <footer id="footer">
+        <div class="container">
+          <div class="row" id="footer-row">
+            <div class="col">
+              <!-- Brand Logo -->
+              <div class="logo mb-3">
+                <a class="navbar-brand brand-text" href="#">
+                  <img
+                    src="./images/app-logo.png"
+                    alt="LOGO"
+                    width="35"
+                    height="35"
+                    class="me-2"
+                  />Food Express</a
+                >
+              </div>
+              <p class="mb-3" id="footer-description">
+                Feeding your hunger and fueling your day with delicious options,
+                delivered quickly and reliably wherever you are
+              </p>
+              <!-- Social Media Icons -->
+              <div class="social-media-icons">
+                <div class="footer-media-icon" id="facebook-icon">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </div>
+                <div class="footer-media-icon" id="instagram-icon">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+                <div class="footer-media-icon" id="whatsapp-icon">
+                  <i class="fa-brands fa-square-whatsapp"></i>
+                </div>
+              </div>
+            </div>
+            <!-- Footer Menu -->
+            <div class="col" id="footer-menu">
+              <div>
+                <h4>Company</h4>
+                <a href="#benefits">Why Food Express</a>
+                <a href="#about">About Us</a>
+                <a href="#subscribe">FAQ's</a>
+              </div>
+              <div>
+                <h4>Our Menu</h4>
+                <a href="#recipes">Special</a>
+                <a href="#recipes">Popular</a>
+                <a href="#recipes">Category</a>
+              </div>
+              <div>
+                <h4>Support</h4>
+                <a href="#header">Account</a>
+                <a href="#subscribe">Feedback</a>
+                <a href="#subscribe">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div id="footer-bottom">
+          <div class="container">
+            <p id="copyright-text">
+              Copyright &copy; 2025 Food Express, All rights reserved
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Model for Sign In -->
+    <div class="modal fade" tabindex="-1" id="signInModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <form id="signInForm">
+            <div class="modal-header bg-primary text-white">
+              <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <!-- EMAIL -->
+              <div>
+                <label for="signInEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  name="signInEmail"
+                  id="signInEmail"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <!-- PASSWORD -->
+              <div>
+                <label for="signInPassword" class="form-label">Password</label>
+                <input
+                  type="password"
+                  name="signInPassword"
+                  id="signInPassword"
+                  class="form-control"
+                  required
+                />
+              </div>
+            </div>
+            <div class="modal-footer" id="signInModalFooter">
+              <p>New User? <a href="#" id="registerLink">Register here</a></p>
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="submit" class="btn btn-primary">Sign In</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Register -->
+    <div class="modal" tabindex="-1" id="registerModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <form id="registerForm">
+            <div class="modal-header bg-primary text-white">
+              <h5 class="modal-title">Register</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <!-- EMAIL -->
+              <div>
+                <label for="registerEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  name="registerEmail"
+                  id="registerEmail"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <!-- PASSWORD -->
+              <div>
+                <label for="registerPassword" class="form-label"
+                  >Enter Password</label
+                >
+                <input
+                  type="password"
+                  name="registerPassword"
+                  id="registerPassword"
+                  required
+                  class="form-control"
+                />
+              </div>
+              <!-- CONFIRM PASSWORD -->
+              <div>
+                <label for="confirmPassword" class="form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  name="confirmPassword"
+                  id="confirmPassword"
+                  required
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="modal-footer" id="registerModalFooter">
+              <p>
+                Already have an account?
+                <a href="#" id="backTosignInLink">Sign In</a>
+              </p>
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="submit" class="btn btn-primary">Register</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Cart -->
+    <div class="modal" tabindex="-1" id="cartModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" id="cartModalHeader">
+            <h5 class="modal-title">Cart</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" id="cartModalBody"></div>
+          <div class="modal-footer" id="cartModalFooter">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" id="checkoutButton">
+              Proceed to Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
