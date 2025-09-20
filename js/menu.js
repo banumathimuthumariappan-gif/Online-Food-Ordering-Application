@@ -81,6 +81,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     attachCartEvents();
+
+    updateActiveFilterButton();
   }
 
   // ==============================================
@@ -122,6 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Refreshing menu after changes
   function refreshMenuAfterCartChange() {
     if (activeFilter === "all") {
       displayMenu(products);
@@ -132,6 +135,18 @@ document.addEventListener("DOMContentLoaded", () => {
       displayMenu(filteredItems);
     }
   }
+
+  //  Updating active filter button
+  function updateActiveFilterButton() {
+    filterButtons.forEach((btn) => {
+      if (btn.dataset.filter.toLowerCase() === activeFilter) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    });
+  }
+
   // ==============================================
   // Filter menu items when a button is clicked
   filterButtons.forEach((button) => {

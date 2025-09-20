@@ -178,7 +178,7 @@
             "price": 280,
             "description": "Spicy Schezwan chicken fried rice with fresh vegetables.",
             "bestSeller": true,
-            "imageURL": "./images/18-Schezwan-Chicken-Fried-Rice.jpeg"
+            "imageURL": "./images/18-Schezwan-Chicken-Fried-rice.jpeg"
         },
         {
             "itemId": 19,
