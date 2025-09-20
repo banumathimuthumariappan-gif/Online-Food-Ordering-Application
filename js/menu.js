@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let products = [];
   let cart = {};
+  let activeFilter = "all";
 
   // FETCHING JSON DATA
   fetch("./data/products.json")
@@ -86,11 +87,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Attaching event listeners to "Add to Cart" buttons
   function attachCartEvents() {
     document.querySelectorAll(".cart-btn").forEach((button) => {
-      button.addEventListener("click", () => {
+      button.addEventListener("click", (e) => {
+        e.preventDefault();
         const id = button.dataset.id;
         cart[id] = 1;
         window.addToCart(id, 1);
-        displayMenu(products);
+        refreshMenuAfterCartChange();
       });
     });
 
@@ -100,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const id = button.dataset.id;
         cart[id] = (cart[id] || 0) + 1;
         window.addToCart(id, cart[id]);
-        displayMenu(products);
+        refreshMenuAfterCartChange();
       });
     });
 
@@ -115,11 +117,21 @@ document.addEventListener("DOMContentLoaded", () => {
           delete cart[id];
           window.removeFromCart(id);
         }
-        displayMenu(products);
+        refreshMenuAfterCartChange();
       });
     });
   }
 
+  function refreshMenuAfterCartChange() {
+    if (activeFilter === "all") {
+      displayMenu(products);
+    } else {
+      const filteredItems = products.filter(
+        (item) => item.category.toLowerCase() === activeFilter
+      );
+      displayMenu(filteredItems);
+    }
+  }
   // ==============================================
   // Filter menu items when a button is clicked
   filterButtons.forEach((button) => {
@@ -130,13 +142,13 @@ document.addEventListener("DOMContentLoaded", () => {
       // Adding "active" class to the clicked button
       button.classList.add("active");
 
-      const filter = button.dataset.filter.toLowerCase();
+      activeFilter = button.dataset.filter.toLowerCase();
 
-      if (filter == "all") {
+      if (activeFilter == "all") {
         displayMenu(products);
       } else {
         const filteredItems = products.filter(
-          (item) => item.category.toLowerCase() == filter
+          (item) => item.category.toLowerCase() == activeFilter
         );
         displayMenu(filteredItems);
       }
